@@ -5,7 +5,7 @@ Team members:
 
 PL/SQL Code Description:
 
-The project is included in stud_reg_sys  package. This package contains following files : 
+The project is included in stud_reg_sys  package. This package contains following files :
 1.	sequence.sql : In this file we declared one sequence as  log_id_seq  for  logs table.
 2.	Triggers.sql : This file creates all the triggers that are mentioned in question 6 and solves some part of question 7 after adding a tuple to purchases table.
 3.	Stud_reg_sys_package_specification.sql : This file contains the initialization of all function headers and procedure headers that are useful for the project.
