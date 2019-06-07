@@ -27,9 +27,9 @@ public class Driver {
 			      //Connection to Oracle server
 			      OracleDataSource ds = new oracle.jdbc.pool.OracleDataSource();
 			     ds.setURL("jdbc:oracle:thin:@castor.cc.binghamton.edu:1521:ACAD111");
-			      Connection conn = ds.getConnection("mgole1", "Kolhapur22091995");
+			      Connection conn = ds.getConnection("userid", "password");
 			     //Class.forName("oracle.jdbc.driver.OracleDriver");
-			     //Connection conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xe","SYSTEM","Mrudula");
+			     //Connection conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xe","userid","password");
 			      System.out.println("Connection Established");
 			     
 			      
